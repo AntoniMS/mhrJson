@@ -48,7 +48,7 @@
       "smash": [
         {
           "part": "cola",
-          "damage": "cortante"
+          "damage": "cortantes"
         }
       ]
     },
@@ -62,11 +62,11 @@
       "smash": [
         {
           "part": "garras",
-          "damage": "cortante"
+          "damage": "cortantes"
         },
         {
           "part": "pico",
-          "damage": "golpe"
+          "damage": "contundentes"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "smash": [
         {
           "part": "cresta",
-          "damage": "cortante"
+          "damage": "cortantes"
         },
         {
           "part": "pico",
-          "damage": "golpe"
+          "damage": "contundentes"
         }
       ]
     },
@@ -98,7 +98,7 @@
       "smash": [
         {
           "part": "aletas",
-          "damage": "cortante"
+          "damage": "cortantes"
         }
       ]
     },
@@ -112,11 +112,11 @@
       "smash": [
         {
           "part": "cola",
-          "damage": "cortante"
+          "damage": "cortantes"
         },
         {
           "part": "alas",
-          "damage": "punzante"
+          "damage": "punzantes"
         }
       ]
     },
@@ -130,15 +130,15 @@
       "smash": [
         {
           "part": "cuernos",
-          "damage": "golpe"
+          "damage": "contundentes"
         },
         {
           "part": "garras",
-          "damage": "cortante"
+          "damage": "cortantes"
         },
         {
           "part": "patas",
-          "damage": "punzante"
+          "damage": "punzantes"
         }
       ]
     },
@@ -152,15 +152,15 @@
       "smash": [
         {
           "part": "patas",
-          "damage": "golpe"
+          "damage": "contundentes"
         },
         {
           "part": "membranas",
-          "damage": "punzante"
+          "damage": "punzantes"
         },
         {
           "part": "seda",
-          "damage": "cortante"
+          "damage": "cortantes"
         }
       ]
     },
@@ -174,11 +174,11 @@
       "smash": [
         {
           "part": "garras",
-          "damage": "golpe"
+          "damage": "contundentes"
         },
         {
           "part": "cola",
-          "damage": "cortante"
+          "damage": "cortantes"
         }
       ]
     },
@@ -192,15 +192,15 @@
       "smash": [
         {
           "part": "espalda",
-          "damage": "golpe"
+          "damage": "contundentes"
         },
         {
           "part": "cola",
-          "damage": "cortante"
+          "damage": "cortantes"
         },
         {
           "part": "colmillos",
-          "damage": "golpe"
+          "damage": "contundentes"
         }
       ]
     },
@@ -214,15 +214,15 @@
       "smash": [
         {
           "part": "garras",
-          "damage": "golpe"
+          "damage": "contundentes"
         },
         {
           "part": "barriga",
-          "damage": "punzante"
+          "damage": "punzantes"
         },
         {
           "part": "cola",
-          "damage": "cortante"
+          "damage": "cortantes"
         }
       ]
     }

@@ -1,0 +1,230 @@
+{ 
+  "habitats": [
+    {
+      "id": 1,
+      "name": "Templo Olvidado",
+      "description": "Un santuario que en su día albergó rezos y protección. Hoy se halla en ruinas, y solo el rugido de los monstruos lo habita día y noche. Sin embargo, sigue siendo un lugar sagrado, y exuda un cierto aire de misterio.",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884978/mhrisecollection/hab1_pifnpi.jpg",
+      "map": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884980/mhrisecollection/map_001_ijvfzn.png"
+    },
+    {
+      "id": 2,
+      "name": "Bosque Inundado",
+      "description": "Una región de densas frondas verdes. Debido al flujo constante de agua, la mayor parte del bosque está sumergido. Puedes escalar por las llamativas ruinas que aquí se encuentran.",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884977/mhrisecollection/hab2_sffj2w.jpg",
+      "map": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884980/mhrisecollection/map_003_bwbfbj.png"
+    },
+    {
+      "id": 3,
+      "name": "Islas Heladas",
+      "description": "Las Islas heladas eran antes el nido de un dragón colosal. Muchos héroes perdieron sus vidas intentando acabar con la bestia, y se convirtió en un lugar de muerte, desolado e inhóspito.",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884978/mhrisecollection/hab3_nhqnxk.jpg",
+      "map": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884981/mhrisecollection/map_004_uekl7t.png"
+    },
+    {
+      "id": 4,
+      "name": "Llanos Arenosos",
+      "description": "Un yermo desolado, lleno de agresivos monstruos, hambrientos de carne y sangre. Durante el día, el sol arde sobre las llanuras sin piedad, pero las noches son frescas y bañadas por la luz de la luna.",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884978/mhrisecollection/hab4_l5lv9u.jpg",
+      "map": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884980/mhrisecollection/map_002_zlc98e.png"
+    },
+    {
+      "id": 5,
+      "name": "Grutas de Lava",
+      "description": "Una red natural de cavernas dividida en dos zonas: una con ríos de lava y un calor abrasador, y otra fresca con agua cristalina. Formarían un precioso y místico entorno... si no estuvieran llenas de monstruos.",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884978/mhrisecollection/hab5_vssj8w.jpg",
+      "map": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884981/mhrisecollection/map_005_uqslk4.png"
+    }
+  ],
+
+  "monsters": [
+    {
+      "id": 1,
+      "name": "Gran Izuchi",
+      "description": "Un wyvern pájaro que utiliza su cola, evolucionada hasta tomar forma de guadaña, para atraer a sus presas.",
+      "element": "ninguno",
+      "weak": "agua",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884984/mhrisecollection/monsters/izuchi_c15jux.png",
+      "break": [
+        {
+          "part": "cola",
+          "damage": "cortante"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tetranadon",
+      "description": "Un Anfibio acuático cubierto de algas que puede hinchar su estómago tras tragar grava, lo que reduce su velocidad, pero aumenta la potencia de sus ataques.",
+      "element": "agua",
+      "weak": "fuego",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884987/mhrisecollection/monsters/tetranadon_zyxtcr.png",
+      "break": [
+        {
+          "part": "garras",
+          "damage": "cortante"
+        },
+        {
+          "part": "pico",
+          "damage": "golpe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Aknosom",
+      "description": "Un Wyvern Pájaro similar a una grulla con una cresta en forma de sombrilla que utiliza fuego para atacar.",
+      "element": "fuego",
+      "weak": "agua",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884991/mhrisecollection/monsters/aknosom_m1mpws.png",
+      "break": [
+        {
+          "part": "cresta",
+          "damage": "cortante"
+        },
+        {
+          "part": "pico",
+          "damage": "golpe"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Somnacanth",
+      "description": "Un extraño Leviathan con grandes aletas moradas capaz de expulsar un gas somnífero a sus oponentes.",
+      "element": "agua",
+      "weak": "rayo",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884986/mhrisecollection/monsters/somna_h9rifm.png",
+      "break": [
+        {
+          "part": "aletas",
+          "damage": "cortante"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bishatenn",
+      "description": "Una Bestia de Colmillos alada y con una cola prensil a la que le gusta recolectar frutas, que luego puede lanzar contra sus oponentes.",
+      "element": "ninguno",
+      "weak": "fuego",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884983/mhrisecollection/monsters/bishaten_p9v4fp.png",
+      "break": [
+        {
+          "part": "cola",
+          "damage": "cortante"
+        },
+        {
+          "part": "alas",
+          "damage": "punzante"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Goss Harag",
+      "description": "Una Bestia de regiones heladas capaz de congelar partes de su cuerpo para crear afilados carámbanos con los que cortar a sus presas.",
+      "element": "hielo",
+      "weak": "fuego",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884984/mhrisecollection/monsters/goss_iqqh3l.png",
+      "break": [
+        {
+          "part": "cuernos",
+          "damage": "golpe"
+        },
+        {
+          "part": "garras",
+          "damage": "cortante"
+        },
+        {
+          "part": "patas",
+          "damage": "punzante"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rakna-Kadaki",
+      "description": "Un Temnoceran que habita en una zona volcánica y que pelea acompañado de sus crías. Utiliza sus membranas para inmovilizar a los cazadores.",
+      "element": "fuego",
+      "weak": "rayo",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884985/mhrisecollection/monsters/kadaki_zya0k5.png",
+      "break": [
+        {
+          "part": "patas",
+          "damage": "golpe"
+        },
+        {
+          "part": "membranas",
+          "damage": "punzante"
+        },
+        {
+          "part": "seda",
+          "damage": "cortante"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Almudron",
+      "description": "Un Leviathan que segrega un líquido dorado con el que disuelve el suelo y crea obstáculos a base de barro, también pega barro a su cuerpo y lo lanza contra sus enemigos.",
+      "element": "agua",
+      "weak": "fuego",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884982/mhrisecollection/monsters/almudron_c5a2vr.png",
+      "break": [
+        {
+          "part": "garras",
+          "damage": "golpe"
+        },
+        {
+          "part": "cola",
+          "damage": "cortante"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Magnamalo",
+      "description": "El monstruo insignia del juego es Magnamalo, el Wyvern Malicioso, un Wyvern de Colmillos capaz de utilizar una energía parecida a un fuego morado.",
+      "element": "fuego",
+      "weak": "agua",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884993/mhrisecollection/monsters/magnamalo_ffvdyn.png",
+      "break": [
+        {
+          "part": "espalda",
+          "damage": "golpe"
+        },
+        {
+          "part": "cola",
+          "damage": "cortante"
+        },
+        {
+          "part": "colmillos",
+          "damage": "golpe"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Narwa de Trueno",
+      "description": "Un Dragón Anciano, sus vesículas eléctricas generan un potente campo magnético que le permite elevarse por los aires.",
+      "element": "rayo",
+      "weak": "dragón",
+      "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884985/mhrisecollection/monsters/narwa_rdy83z.png",
+      "break": [
+        {
+          "part": "garras",
+          "damage": "golpe"
+        },
+        {
+          "part": "barriga",
+          "damage": "punzante"
+        },
+        {
+          "part": "cola",
+          "damage": "cortante"
+        }
+      ]
+    }
+  ]
+}

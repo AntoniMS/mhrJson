@@ -45,7 +45,7 @@
       "element": "ninguno",
       "weak": "agua",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884984/mhrisecollection/monsters/izuchi_c15jux.png",
-      "break": [
+      "smash": [
         {
           "part": "cola",
           "damage": "cortante"
@@ -59,7 +59,7 @@
       "element": "agua",
       "weak": "fuego",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884987/mhrisecollection/monsters/tetranadon_zyxtcr.png",
-      "break": [
+      "smash": [
         {
           "part": "garras",
           "damage": "cortante"
@@ -77,7 +77,7 @@
       "element": "fuego",
       "weak": "agua",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884991/mhrisecollection/monsters/aknosom_m1mpws.png",
-      "break": [
+      "smash": [
         {
           "part": "cresta",
           "damage": "cortante"
@@ -95,7 +95,7 @@
       "element": "agua",
       "weak": "rayo",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884986/mhrisecollection/monsters/somna_h9rifm.png",
-      "break": [
+      "smash": [
         {
           "part": "aletas",
           "damage": "cortante"
@@ -109,7 +109,7 @@
       "element": "ninguno",
       "weak": "fuego",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884983/mhrisecollection/monsters/bishaten_p9v4fp.png",
-      "break": [
+      "smash": [
         {
           "part": "cola",
           "damage": "cortante"
@@ -127,7 +127,7 @@
       "element": "hielo",
       "weak": "fuego",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884984/mhrisecollection/monsters/goss_iqqh3l.png",
-      "break": [
+      "smash": [
         {
           "part": "cuernos",
           "damage": "golpe"
@@ -149,7 +149,7 @@
       "element": "fuego",
       "weak": "rayo",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884985/mhrisecollection/monsters/kadaki_zya0k5.png",
-      "break": [
+      "smash": [
         {
           "part": "patas",
           "damage": "golpe"
@@ -171,7 +171,7 @@
       "element": "agua",
       "weak": "fuego",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884982/mhrisecollection/monsters/almudron_c5a2vr.png",
-      "break": [
+      "smash": [
         {
           "part": "garras",
           "damage": "golpe"
@@ -189,7 +189,7 @@
       "element": "fuego",
       "weak": "agua",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884993/mhrisecollection/monsters/magnamalo_ffvdyn.png",
-      "break": [
+      "smash": [
         {
           "part": "espalda",
           "damage": "golpe"
@@ -211,7 +211,7 @@
       "element": "rayo",
       "weak": "dragón",
       "image": "https://res.cloudinary.com/dumrd1tos/image/upload/v1642884985/mhrisecollection/monsters/narwa_rdy83z.png",
-      "break": [
+      "smash": [
         {
           "part": "garras",
           "damage": "golpe"
